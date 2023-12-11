@@ -44,8 +44,9 @@ Make sure to download the pretrained weights for the VGG16 model before using th
 
 ```python
 # Load VGG16 pretrained weights
-vgg_weights_path = 'path/to/vgg16_weights.h5'
-model.load_weights(vgg_weights_path)
+!wget https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+vgg_weights_path = "vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5"
 ```
 
 Feel free to customize the code according to your requirements and experiment with different hyperparameters.
